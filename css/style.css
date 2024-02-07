@@ -30,6 +30,10 @@ body{
     flex-wrap: wrap;
 }
 
+.flex-end{
+    justify-content: flex-end;
+}
+
 .justify-end{
     justify-content: flex-end;
 }
@@ -78,6 +82,19 @@ body{
 
 .main-header-menu li a{
     display: block;
+}
+
+/* MAIN */
+
+.main-content .subscribe-btn{
+    padding: 10px;
+    background-color: #A57B69;
+}
+
+.main-content .subscribe-btn button{
+    border: none;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 /* FOOTER */
