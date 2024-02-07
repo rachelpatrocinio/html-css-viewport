@@ -29,6 +29,10 @@ body{
     display: flex;
 }
 
+.flex-column{
+    flex-direction: column;
+}
+
 .flex-end{
     justify-content: flex-end;
 }
@@ -87,7 +91,8 @@ body{
     line-height: 30px;
 }
 
-.side-bar-menu li:hover{
+.side-bar-menu .side-bar__btn:hover,
+.side-bar-menu .login__btn:hover{
     color: #A57B69;
 }
 
