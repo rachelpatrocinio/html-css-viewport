@@ -19,11 +19,23 @@ a{
     color: currentColor;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 /* UTILITIES */
 
 .flex{
     display: flex;
     flex-wrap: wrap;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.align-end{
+    align-self: flex-end;
 }
 
 .space-between{
@@ -37,7 +49,10 @@ a{
 /* HEADER */
 .main-header{
     background-color: #FFDDDC;
+    color: white;
+    font-weight: 700;
     width: 250px;
+    height: 100vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -47,10 +62,9 @@ a{
     display: block;
 }
 
-.main-header-menu{
+.main-header-menu,
+.login-btn{
     padding: 20px;
-    color: white;
-    font-weight: 700;
 }
 
 .main-header-menu li{
