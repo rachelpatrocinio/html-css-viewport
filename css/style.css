@@ -50,16 +50,26 @@ body{
     justify-content: space-around;
 }
 
+/* LAYOUT */
+
+.container{
+    padding: 30px;
+}
+
+/* WEBAPP */
+
+#webapp{
+    height: 100vh;
+}
+
+
 /* HEADER */
 .main-header{
     background-color: #FFDDDC;
     color: white;
     font-weight: 700;
     width: 250px;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
+    flex-shrink: 0;
 }
 
 .main-header .logo{
@@ -86,6 +96,10 @@ body{
 
 /* MAIN */
 
+.main-content{
+    flex-grow: 1;
+}
+
 .main-content .subscribe-btn{
     padding: 10px;
     background-color: #A57B69;
@@ -95,6 +109,12 @@ body{
     border: none;
     border-radius: 50px;
     padding: 10px;
+}
+
+/* TRAVEL-CARDS */
+
+.travelcard__header{
+
 }
 
 /* FOOTER */
