@@ -52,7 +52,8 @@ body{
 /* LAYOUT */
 
 .container{
-    padding: 30px;
+    width: 80%;
+    margin: 30px auto;
 }
 
 /* WEBAPP */
@@ -117,14 +118,34 @@ main{
 }
 /* SECTION */
 
+.section__title{
+    color:#A57B69;
+}
+
 .section__content{
     display: flex;
     flex-wrap: wrap;
 }
 
 .section__content .travelcards{
-    width: calc(3*100%/12);
-    padding: 20px;
+    width: calc(2*100%/12);
+    padding: 10px;
+}
+
+.section__content .travelcard__title{
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.section__pricelist span{
+    line-height: 12px;
+    font-weight: 700;
+    color: #FFDDDC;;
+}
+
+.section__pricelist span:hover{
+    color: #A57B69;
+    cursor: pointer;
 }
 
 /* FOOTER */
@@ -142,8 +163,18 @@ main{
     padding: 5px 5px;
 }
 
+.main-footer-menu li img{
+    display: block;
+}
+
 .main-footer-menu li{
     width: 100px;
+}
+
+.main-footer__title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 
