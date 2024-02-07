@@ -62,38 +62,44 @@ body{
 }
 
 
-/* HEADER */
-.main-header{
+/* SIDE BAR*/
+.side-bar{
     background-color: #FFDDDC;
     color: white;
     font-weight: 700;
     width: 250px;
+    height: calc(100vh - 100px);
     flex-shrink: 0;
 }
 
-.main-header .logo{
+.side-bar .logo{
     display: block;
 }
 
-.main-header-menu,
+.side-bar-menu,
 .login-btn{
     padding: 20px;
 }
 
-.main-header-menu li{
+.side-bar-menu li{
     padding:8px 0;
     line-height: 30px;
 }
 
-.main-header-menu li:hover{
+.side-bar-menu li:hover{
     color: #A57B69;
 }
 
-.main-header-menu li a{
+.side-bar-menu li a{
     display: block;
 }
 
 /* MAIN */
+
+main{
+    height: calc(100vh - 100px);
+    overflow: hidden;
+}
 
 .main-content{
     flex-grow: 1;
@@ -124,7 +130,7 @@ body{
 /* FOOTER */
 
 .main-footer{
-
+    height: 100px;
     width: 100%;
     background-color: #A57B69;
     padding: 20px;
