@@ -26,10 +26,18 @@ a{
     flex-wrap: wrap;
 }
 
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
 /* HEADER */
 .main-header{
     background-color: #FFDDDC;
-    width: 25%;
+    width: 250px;
     position: fixed;
     top: 0;
     left: 0;
@@ -64,7 +72,18 @@ a{
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: #A57B69;;
+    background-color: #A57B69;
+    padding: 20px;
+    color: white;
+}
+
+.main-footer-menu li,
+.main-footer-social li{
+    padding: 5px 5px;
+}
+
+.main-footer-menu li{
+    width: 100px;
 }
 
 
