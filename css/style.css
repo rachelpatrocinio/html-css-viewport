@@ -27,7 +27,6 @@ body{
 
 .flex{
     display: flex;
-    flex-wrap: wrap;
 }
 
 .flex-end{
@@ -110,18 +109,22 @@ body{
     border-radius: 50px;
     padding: 10px;
 }
+/* SECTION */
 
-/* TRAVEL-CARDS */
+.section__content{
+    display: flex;
+    flex-wrap: wrap;
+}
 
-.travelcard__header{
-
+.section__content .travelcards{
+    width: calc(3*100%/12);
+    padding: 20px;
 }
 
 /* FOOTER */
 
 .main-footer{
-    position: fixed;
-    bottom: 0;
+
     width: 100%;
     background-color: #A57B69;
     padding: 20px;
