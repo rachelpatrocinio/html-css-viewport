@@ -182,4 +182,18 @@ main{
 }
 
 
+/* MEDIA QUERY (desktop first) */
+@media screen and (max-width:1024px){
 
+    .side-bar{
+        width: 110px;
+    }
+
+    .section__content .travelcards{
+        width: calc(4*100%/12);
+    }
+
+    .main-footer-menu{
+        display: none;
+    }
+}
